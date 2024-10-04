@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    border: 0;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-timeline: 1s;
+}
+.head{
+    position: fixed;
+    background: #2b1c46;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    filter: blur(10);
+}
+.logo{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: rgb(71, 71, 212);
+}
+.navbar a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 50px;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(71, 71, 212);
+}
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(94, 91, 91);
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    padding: 30px 15% 0;
+    fill: whitesmoke;
+}
+.abouttext{
+    width: 550px;
+}
+.abouttext span{
+    color: #2b1c46;
+}
+.abouttext h2{
+    color: rgb(221, 216, 216);
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.abouttext h5{
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-size: 23px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.abouttext p{
+    color: rgba(255, 255, 255, 0.733);
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
+.main{
+    width: 1120px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main img{
+    width: 300px;
+    height: 500px;
+    margin-top: 65px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-style: groove;
+}
+.hobbies{
+    background-color: #313131;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title{
+    color: whitesmoke;
+    font-size: 50px;
+    width: 1100px;
+    margin: 20px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: whitesmoke;
+}
+.box p{
+    text-align: center;
+}
+.box h5{
+    color: rgb(255, 212, 212);
+}
+.card{
+    height: 365px;
+    width: 330px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.book img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.piano img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.soccer img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+footer{
+    width: 100%;
+    position: relative;
+    background: rgb(65, 64, 64);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: wheat;
+    border-radius: 50%;
+    background: rgb(85, 82, 82);
+    margin: 10px;
+}
+.icons a:hover{
+    transform: scale(1.2);
+
+}

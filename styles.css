@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    border: 0;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    position: fixed;
+    background: #2b1c46;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    filter: blur(10);
+    animation: slideLeft 1s ease forwards;
+}
+.logo{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: rgb(71, 71, 212);
+}
+.navbar a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 50px;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(71, 71, 212);
+}
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(150, 147, 147);
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    padding: 30px 15% 0;
+    fill: whitesmoke;
+}
+.content{
+    max-width: 600px;
+    align-items: center;
+}
+.content h1{
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.content span{
+    color: #2b1c46;
+}
+.content h3{
+    font-size: 30px;
+    text-align: center;
+}
+.content p{
+    font-size: 18px;
+}
+.content button{
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    background: rgb(150, 147, 147);
+    overflow: hidden;
+    font-size: 25px;
+    border-style: groove;
+}
+.content button:hover{
+    color: #2b1c46;
+    cursor: pointer;
+}
+
+.image img{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-top: 65px;
+    margin-left: 20px;
+    transition: 0.5s ease;
+}
+footer{
+    width: 100%;
+    position: relative;
+    background: rgb(65, 64, 64);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: wheat;
+    border-radius: 50%;
+    background: rgb(85, 82, 82);
+    margin: 10px;
+}
+.icons a:hover{
+    transform: scale(1.2);
+
+}
